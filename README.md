@@ -24,6 +24,9 @@ The primary aim of this experiment is to:
 - **Bandwidth calculation from S-parameter**: 1.33 GHz
 - **Operating frequency**: 2.4 GHz
 
+- ![image](https://github.com/user-attachments/assets/5845abe1-a341-4ed6-9a6e-a61c553bec94)
+
+
 ## **Procedure**
 ### **Step 1: Setting Up CST Studio Suite**
 1. Open **CST Studio Suite 2019 (Student Edition)**.
@@ -34,6 +37,8 @@ The primary aim of this experiment is to:
 1. Define the **substrate** with a height of **1.6 mm** and a relative permittivity of **3.024**.
 2. Create a **microstrip line** with a width of **2.93 mm** and a characteristic impedance of **50 Ohms**.
 3. Terminate the microstrip line with the desired **123 Ohm load**.
+
+![image](https://github.com/user-attachments/assets/cb2ebfad-3cdb-41b4-aa01-7431ae6b3a49)
 
 ### **Step 3: Designing the Quarter Wave Transformer**
 1. Calculate the impedance of the quarter wave transformer using the formula:
@@ -50,6 +55,10 @@ The primary aim of this experiment is to:
 1. Extract the **S11 characteristics** to verify the efficiency of the impedance matching.
 2. Confirm the **bandwidth** calculation from the **S-parameters**.
 3. Compare theoretical and simulated results for validation.
+
+![image](https://github.com/user-attachments/assets/469438f8-99e7-4696-a0da-a6b52147f27f)
+
+![image](https://github.com/user-attachments/assets/e9388a55-a80c-4b80-b732-de3aa2635ade)
 
 ## **Conclusion**
 This project successfully demonstrates the design and analysis of a **quarter wave transformer** for impedance matching in a **microstrip antenna system**. The implementation in **CST Studio Suite 2019** allows efficient simulation and validation of the design parameters, ensuring optimal performance.
